@@ -76,31 +76,31 @@ barni.Suggestions = { -- /command suggestions that will pop up in chat (Make sur
         description = "[ADMIN ONLY] Private message command",
         argument = { ["ID"] = "Player ID" }
     },
-    [barni.Commands['Advertisement']] = {
+    ['/ad'] = {
         description = "Share an advertisement for all players, costs "..barni.AdCost.."$",
         argument = { ["MESSAGE"] = "[TEXT]" }
     },
-    [barni.Commands['Twitter']] = {
+    ['/twt'] = {
         description = "Send a twitter message",
         argument = { ["MESSAGE"] = "[TEXT]" }
     },
-    [barni.Commands['Blackmarket']] = {
+    ['/bm'] = {
         description = "Send a blackmarket message",
         argument = { ["MESSAGE"] = "[TEXT]" }
     },
-    [barni.Commands['Staff Announcement']] = {
+    ['/announce'] = {
         description = "Send a Staff Announcement message",
         argument = { ["MESSAGE"] = "[TEXT]" }
     },
-    [barni.Commands['Job']] = {
+    ['job'] = {
         description = "Shows your current job",
         argument = { ["Your job"] = "[JOB]" }
     },
-    [barni.Commands['police']] = {
+    ['/police'] = {
         description = "Police announcement",
         argument = { ["MESSAGE"] = "[TEXT]" }
     },
-    [barni.Commands['EMS']] = {
+    ['/ems'] = {
         description = "EMS announcement",
         argument = { ["MESSAGE"] = "[TEXT]" }
     },
